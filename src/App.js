@@ -9,6 +9,7 @@ class App extends Component {
     this.state={
       massage : "UNLIKE"
     };
+    this.changeButton = this.changeButton.bind(this);
   }
 
   changeButton(){

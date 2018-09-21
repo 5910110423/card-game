@@ -41,7 +41,7 @@ export default class WordCard extends Component {
                 <p class = "sansserif">Round : {this.state.attempt}</p>
                 <p>จงเรียงคำศัพท์ ต่อไปนี้ให้ถูกต้อง</p>
                 <p class = "sansserif">HINT : this lab ID</p>
-                <p class = "sansserif">{this.state.completed ? "you win" : "good luck"}</p>
+                <p class = "sansserif">{this.state.completed ? " **************** you win !!!!!! ****************" : "good luck"}</p>
                 
             </div>
         )
