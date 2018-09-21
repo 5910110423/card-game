@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
 import WordCard from './WordCard';
 
 const word = "3SA03";
@@ -12,6 +10,7 @@ class App extends Component {
         {
           <WordCard value={word}/>
         }
+        <p className="App">Do you like this WEB</p>
       </div>
     );
   }
