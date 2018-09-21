@@ -40,6 +40,7 @@ export default class WordCard extends Component {
                     )
                 }
                 <p>Round : {this.state.attempt}</p>
+                <p>HINT : this lab ID</p>
                 <p>{this.state.completed ? "you win" : "good luck"}</p>
             </div>
         )
