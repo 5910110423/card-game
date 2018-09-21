@@ -4,13 +4,24 @@ import WordCard from './WordCard';
 
 const word = "3SA03";
 class App extends Component {
+  constructor(){
+    super();
+    this.state={
+      massage : "UNLIKE"
+    };
+  }
+
+  changeButton(){
+    this.setState({massage:"LIKE"});
+  }
   render() {
     return (
-      <div>
+      <div class = "App">
         {
           <WordCard value={word}/>
         }
         <p className="App">Do you like this WEB</p>
+        <button onClick="this.changeButton">{this.state.massage}</button>
       </div>
     );
   }
