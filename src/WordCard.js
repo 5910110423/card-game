@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import CharacterCard from "./CharacterCard";
 import _ from 'lodash';
 const prepareStateFromWord = (given_word) => {
@@ -42,6 +41,7 @@ export default class WordCard extends Component {
                 <p class = "sansserif">Round : {this.state.attempt}</p>
                 <p class = "sansserif">HINT : this lab ID</p>
                 <p class = "sansserif">{this.state.completed ? "you win" : "good luck"}</p>
+                
             </div>
         )
     }
