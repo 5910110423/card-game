@@ -33,8 +33,8 @@
 }
 
 .activeCard {
-  color: blueviolet;
-  background: pink;
+  color: rgb(219, 17, 17);
+  background: rgb(130, 219, 231);
 }
 
 @keyframes App-logo-spin {
