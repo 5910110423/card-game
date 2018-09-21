@@ -4,7 +4,7 @@ import './App.css';
 
 import WordCard from './WordCard';
 
-const word = "Hello";
+const word = "REACT";
 class App extends Component {
   render() {
     return (
