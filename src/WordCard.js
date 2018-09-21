@@ -39,9 +39,9 @@ export default class WordCard extends Component {
                         activationHandler = {this.activationHandler}/>
                     )
                 }
-                <p>Round : {this.state.attempt}</p>
-                <p>HINT : this lab ID</p>
-                <p>{this.state.completed ? "you win" : "good luck"}</p>
+                <p class = "sansserif">Round : {this.state.attempt}</p>
+                <p class = "sansserif">HINT : this lab ID</p>
+                <p class = "sansserif">{this.state.completed ? "you win" : "good luck"}</p>
             </div>
         )
     }
